@@ -69,15 +69,15 @@
    
 
 //    sticky header add 
-let header = document.querySelector('.headerWarp');
-window.addEventListener('scroll', function(){
-    if(window.pageYOffset >= 200){
-        header.classList.add("sticky_header")
-    }
-    else{
-        header.classList.remove("sticky_header")
-    }
-})
+// let header = document.querySelector('.headerWarp');
+// window.addEventListener('scroll', function(){
+//     if(window.pageYOffset >= 200){
+//         header.classList.add("sticky_header")
+//     }
+//     else{
+//         header.classList.remove("sticky_header")
+//     }
+// })
 
 // Banner slider animation 
 const swiperQuiz = new Swiper(".animeslide", {
