@@ -720,7 +720,7 @@ a#login_btn:hover span:nth-child(4) {
 	top: 50%;
 	left: 50%;
 	transform: translate(-51%, -50%);
-	background-color: rgb(255 255 255 / 65%);
+	background-color: rgb(0 0 0 / 76%);
 	z-index: -1;
 	box-shadow: 0px 0px 10px 4px #00000040;
 }
@@ -732,7 +732,7 @@ a#login_btn:hover span:nth-child(4) {
 .inner_banner_caption h1 {
 	font-size: 35px;
 	line-height: 1.5;
-	color: #171f6a;
+	color: var(--white);
 	font-weight: 700;
 }
 
@@ -746,14 +746,14 @@ a#login_btn:hover span:nth-child(4) {
 
 .inner_banner .breadcrumb li,
 .inner_banner .breadcrumb li a {
-	font-size: 20px;
+	font-size: 16px;
 	color: var(--yellow);
 	font-weight: 500;
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
 	padding-right: 5px;
-	color: #800e13;
+	color: var(--white);
 	font-size: 2.2rem;
 	content: "/";
 	font-weight: 900;
