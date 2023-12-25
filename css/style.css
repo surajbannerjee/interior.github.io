@@ -326,7 +326,7 @@ a.btn.boxed-btn.read-btn:hover {
 .custom_btn {
 	background: transparent;
 	border: 2px solid var(--yellow);
-	color: var(--white);
+	color: var(--yellow);
 	text-transform: uppercase;
 	font-size: 18px;
 	cursor: pointer;
@@ -337,7 +337,7 @@ a.btn.boxed-btn.read-btn:hover {
 	font-weight: 800;
 	line-height: 18px;
 	display: flex;
-	width: fit-content;
+	width: 100%;
 	gap: 0.5rem;
 	align-items: center;
 	justify-content: center;
@@ -365,7 +365,7 @@ span.tb_icon {
 	font-size: 18px;
 	font-weight: 800;
 	line-height: 18px;
-	color: var(--white);
+	color: var(--yellow);
 	display: block;
 }
 
@@ -375,7 +375,7 @@ span.tb_icon {
 
 .custom_btn:hover span.bt_text,
 .custom_btn:hover span.tb_icon {
-	color: #fff;
+	color: var(--white);
 }
 
 .custom_btn:hover::after {
