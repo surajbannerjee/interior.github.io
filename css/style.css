@@ -1616,7 +1616,7 @@ span.btn.seeAllBtn.rec_box {
 /* sliders sec end */
 
 .services_box {
-	min-height: 250px;
+	min-height: 170px;
 	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
@@ -1627,7 +1627,9 @@ span.btn.seeAllBtn.rec_box {
 	transition: all ease 0.5s;
 	cursor: pointer;
 	z-index: 5;
-	gap: 30px;
+	gap: 20px;
+	padding: 15px;
+	text-align: center;
 }
 
 .services_box:hover {
@@ -1639,10 +1641,11 @@ span.btn.seeAllBtn.rec_box {
 }
 
 h3.serviceTitle {
-	font-size: 28px;
+	font-size: 20px;
 	color: var(--black);
 	font-weight: 700;
 	line-height: 1;
+	t
 }
 
 .service_icon {
