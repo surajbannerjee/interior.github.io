@@ -321,61 +321,68 @@ a.btn.boxed-btn.read-btn:hover {
 
 
 
-.custom-btn {
-	width: 100%;
-	height: 45px;
-	color: #fff;
-	border-radius: 5px;
-	padding: 10px 25px;
-	font-family: 'Lato', sans-serif;
-	font-weight: 500;
+
+/* Btn   */
+.custom_btn {
 	background: transparent;
+	border: 2px solid var(--yellow);
+	color: var(--white);
+	text-transform: uppercase;
+	font-size: 18px;
 	cursor: pointer;
-	transition: all 0.3s ease;
+	padding: 15px 20px;
 	position: relative;
-	display: inline-block;
-	box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
-		7px 7px 20px 0px rgba(0, 0, 0, .1),
-		4px 4px 5px 0px rgba(0, 0, 0, .1);
-	outline: none;
+	transition: 0.5s ease-in-out;
+	z-index: 1;
+	font-weight: 800;
+	line-height: 18px;
+	display: flex;
+	width: fit-content;
+	gap: 0.5rem;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: fit-content;
+	margin: auto;
 }
 
-/* 16 */
-.btn-16 {
-	border: none;
-	color: #000;
-}
-
-.btn-16:after {
-	position: absolute;
+.custom_btn::after {
+	background: var(--yellow);
 	content: "";
-	width: 0;
-	height: 100%;
+	position: absolute;
 	top: 0;
 	left: 0;
-	direction: rtl;
-	z-index: -1;
-	box-shadow:
-		-7px -7px 20px 0px #fff9,
-		-4px -4px 5px 0px #fff9,
-		7px 7px 20px 0px #0002,
-		4px 4px 5px 0px #0001;
-	transition: all 0.3s ease;
-}
-
-.btn-16:hover {
-	color: #000;
-}
-
-.btn-16:hover:after {
-	left: auto;
-	right: 0;
+	transition: 0.5s ease-in-out;
+	clip-path: circle(0% at 50% 50%);
 	width: 100%;
+	height: 100%;
+	z-index: -1;
 }
 
-.btn-16:active {
-	top: 2px;
+.custom_btn span.bt_text,
+span.tb_icon {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 18px;
+	color: var(--white);
+	display: block;
 }
+
+.custom_btn:hover span.tb_icon {
+	transform: translateX(10px);
+}
+
+.custom_btn:hover span.bt_text,
+.custom_btn:hover span.tb_icon {
+	color: #fff;
+}
+
+.custom_btn:hover::after {
+	clip-path: circle(100% at 50% 50%);
+}
+
+
 
 /*=================== header area  ========================*/
 /*header*/
