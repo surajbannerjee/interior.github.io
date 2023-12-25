@@ -1643,7 +1643,7 @@ h3.serviceTitle {
 	color: var(--black);
 	font-weight: 700;
 	line-height: 1;
-	t
+	text-align: center;
 }
 
 .service_icon {
@@ -1659,8 +1659,8 @@ h3.serviceTitle {
 
 .service_row {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 30px;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
 }
 
 /* ==================== testimonial sec  =====================  */
@@ -1681,7 +1681,7 @@ h3.serviceTitle {
 p.tes_para {}
 
 .testi_slider_item .rating {
-	margin: 20px 0px;
+	margin: 10px 0px;
 }
 
 .rating span {
