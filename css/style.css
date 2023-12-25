@@ -163,7 +163,7 @@ html {
 }
 
 section {
-	padding: 8rem 0rem;
+	padding: 8rem 0rem 0;
 }
 
 ::-webkit-scrollbar {
@@ -1058,9 +1058,7 @@ section.banner_sec {
 	font-size: 14px;
 }
 
-section {
-	padding: 8rem 0rem 0;
-}
+
 
 section.blog_sec {
 	padding-bottom: 70px;
